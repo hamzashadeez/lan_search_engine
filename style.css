@@ -55,30 +55,40 @@ header {
   align-items: center;
   justify-content: space-around;
   /* padding: 0 100px; */
+  background-color: #000;
 }
 
 .hero > div > h1 {
   font-size: 4rem;
   max-width: 600px;
   margin-bottom: 40px;
+  color: white;
 }
 
 .hero > div > p {
   font-size: 2rem;
   max-width: 600px;
+  margin-bottom: 20px;
+  color: white;
+}
+.hero > div > h6 {
+  font-size: 1rem;
+  max-width: 600px;
   margin-bottom: 40px;
+  color: #dbbb06d8;
 }
 .hero > div > a {
   font-size: 1rem;
-  background-color: #000;
-  color: white;
+  background-color: #dbbb06d8;
+  color: black;
   text-decoration: none;
   padding: 15px 40px;
   margin-bottom: 40px;
 }
 
 .hero > div > a:hover {
-  background-color: #333;
+  background-color: #222;
+  color: #dbbb06d8;
 }
 
 @media screen and (max-width: 789px) {
